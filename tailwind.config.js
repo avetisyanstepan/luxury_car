@@ -12,7 +12,8 @@ module.exports = {
     borderRadius: {
       md: "10px",
       lg: "12px",
-      xl: "20px"
+      xl: "20px",
+      full: "100%"
     },
     colors: {
       white: "#FFFFFF",

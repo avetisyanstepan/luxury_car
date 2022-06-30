@@ -25,13 +25,15 @@ export const LuxuryRental = () => {
                   height={car.height}
                 />
               </div>  
-              <div className="flex items-center text-4xl font-InterSemiBold relative">
-                <Image 
-                  src={'/images/convert.png'}
-                  objectFit="contain"
-                  width={363}
-                  height={153}
-                />  
+              <div className="flex items-center text-4xl px-5 font-InterSemiBold relative">
+                <div>
+                  <Image 
+                    src={'/images/convert.png'}
+                    objectFit="contain"
+                    width={363}
+                    height={153}
+                  />  
+                </div>  
                 <div className="flex gap-2.5 absolute bottom-0 top-0 mt-20 left-0 right-0 justify-center items-center">
                   <YellowStarBig />
                   <p className="text-4xl text-yellow font-InterSemiBold">

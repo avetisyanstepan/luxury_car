@@ -73,7 +73,7 @@ export const SideBar: FC<ISideBarProps> = ({children}) => {
       </div>
       <div className="flex flex-col w-full gap-4">
       <Header />
-      <div className="bg-base_grey_100 pt-8 px-5 rounded-lg max-w-screen-xl">
+      <div className="bg-base_grey_100 pt-8 px-5 rounded-lg w-full">
         {active.includes("car") && <LuxuryRental />}
         {active.includes("points") && <p className="text-white">Points</p>}
         {active.includes("category") && <p className="text-white">category</p>}

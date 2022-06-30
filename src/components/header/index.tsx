@@ -3,7 +3,7 @@ import { Button } from "../common/button";
 
 export const Header = () => {
   return (
-    <div className="flex justify-between bg-base_grey_100 p-5 rounded-lg max-w-screen-xl w-full ">
+    <div className="flex justify-between bg-base_grey_100 p-5 rounded-lg w-full ">
       <div className="items-center flex">
          <p className="text-white text-2xl font-InterMedium">Luxury Rental</p>
       </div>
