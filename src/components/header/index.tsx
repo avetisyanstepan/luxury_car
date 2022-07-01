@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <div className="flex justify-between bg-base_grey_100 p-5 rounded-lg w-full ">
       <div className="items-center flex">
-         <p className="text-white text-2xl font-InterMedium">Luxury Rental</p>
+         <p className="text-white text-2xl font-semibold">Luxury Rental</p>
       </div>
       <div className="relative flex gap-5">
         <div className="absolute top-0 pl-3.5 pt-4">

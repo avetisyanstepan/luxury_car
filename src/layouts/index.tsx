@@ -1,9 +1,20 @@
+import { FC, ReactNode } from "react"
+import { Header } from "../components/header"
 import { SideBar } from "../components/sideBar"
 
-export const MainLayout = () => {
+interface MainLayoutProps {
+  children: ReactNode;
+}
+export const MainLayout:FC<MainLayoutProps> = ({children}) => {
   return (
-    <div className="max-w-[1440px] w-full m-auto flex gap-5 pt-7">
+    <div className="w-full min-h-screen flex gap-5 p-7">
       <SideBar />
+      <div className="flex flex-col gap-5 w-full flex">
+        <Header />
+        <main className="w-full flex-1 h-full">
+          {children}
+        </main>
+      </div>
     </div>
   )
 }

@@ -1,12 +1,14 @@
-import type { NextPage } from 'next'
-import { MainLayout } from '../src/layouts'
-import styles from '../styles/Home.module.css'
+import type { NextPage } from 'next';
+import { LuxuryRental } from '../src/containers/LuxuryRental';
+import { MainLayout } from '../src/layouts';
 
 const Home: NextPage = () => {
   return (
-    <div className='bg-black'>
-      <MainLayout />
-    </div>
+      <MainLayout>
+        <div className="bg-base_grey_100 h-full pt-8 px-5 rounded-lg w-full">
+          <LuxuryRental />
+        </div>
+      </MainLayout>
   )
 }
 

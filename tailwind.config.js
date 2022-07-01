@@ -28,9 +28,7 @@ module.exports = {
       black: "#1B1C1F"
     },
     fontFamily: {
-      InterRegular: ['InterRegular'],
-      InterMedium: ['InterMedium'],
-      InterSemiBold:['InterSemiBold'],
+      body: ['Inter'],
     },
   },
   plugins: [],

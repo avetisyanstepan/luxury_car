@@ -7,8 +7,8 @@ export const LuxuryRental = () => {
   return (
     <div className="flex flex-col pb-8">
       <div className="border-b border-base_grey_80 w-full mb-[113px] pb-8">
-        <p className="text-lg font-InterMedium text-white">Lorem ipsum</p>
-        <p className=" text-base font-InterRegular text-lightGrey mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+        <p className="text-lg font-semibold text-white">Lorem ipsum</p>
+        <p className=" text-base font-normal text-lightGrey mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
       </div>
       <div className="flex gap-5">
         {
@@ -45,7 +45,7 @@ export const LuxuryRental = () => {
               <div className="py-12">
                 <Button
                   title="Continue"
-                  className="bg-yellow text-black text-xs font-InterSemiBold px-8 py-3 shadow-lg rounded-lg shadow-darkYellow "
+                  className="bg-yellow text-black text-xs font-semibold px-8 py-3 shadow-lg rounded-lg shadow-darkYellow "
                 />
               </div>  
             </div>  

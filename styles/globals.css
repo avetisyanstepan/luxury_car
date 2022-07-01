@@ -2,18 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: #1B1C1F;
+}
 
 @font-face {
-  font-family: 'InterRegular';
+  font-family: 'Inter';
   src: url('/font/Inter-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
 };
 
 @font-face {
-  font-family: 'InterMedium';
+  font-family: 'Inter';
   src: url('/font/Inter-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
 };
 
 @font-face {
-  font-family: 'InterSemiBold';
-  src: url('/font/Inter-SemiBold.ttf');
+  font-family: 'Inter';
+  src: url('/font/Inter-SemiBold.ttf') ;
+  font-style: normal;
+  font-weight: 600;
 };
