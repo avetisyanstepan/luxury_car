@@ -13,7 +13,7 @@ export const Header = () => {
         </div>
         <input 
           type="text"
-          className="border border-base_grey_60  rounded-md outline-0 text-[14px] pl-10 bg-base_grey_80 text-lightGrey font-InterRegular py-3"
+          className="border border-base_grey_60  rounded-md outline-0 text-[14px] pl-10 bg-base_grey_80 text-lightGrey font-normal py-3"
           placeholder="Type to search..."
         />
         <Button 

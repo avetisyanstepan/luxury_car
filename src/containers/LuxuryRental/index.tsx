@@ -5,7 +5,7 @@ import { YellowStarBig } from "../../envaironment"
 
 export const LuxuryRental = () => {
   return (
-    <div className="flex flex-col pb-8">
+    <div className="flex flex-col pb-8 bg-base_grey_100 h-full pt-8 px-5 rounded-lg w-full">
       <div className="border-b border-base_grey_80 w-full mb-[113px] pb-8">
         <p className="text-lg font-semibold text-white">Lorem ipsum</p>
         <p className=" text-base font-normal text-lightGrey mt-2.5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
@@ -25,7 +25,7 @@ export const LuxuryRental = () => {
                   height={car.height}
                 />
               </div>  
-              <div className="flex items-center text-4xl px-5 font-InterSemiBold relative">
+              <div className="flex items-center text-4xl px-5 font-semibold relative">
                 <div>
                   <Image 
                     src={'/images/convert.png'}
@@ -34,12 +34,12 @@ export const LuxuryRental = () => {
                     height={153}
                   />  
                 </div>  
-                <div className="flex gap-2.5 absolute bottom-0 top-0 mt-20 left-0 right-0 justify-center items-center">
+                <div className="flex gap-2.5 absolute bottom-0 top-0  left-0 right-0 justify-center items-center">
                   <YellowStarBig />
-                  <p className="text-4xl text-yellow font-InterSemiBold">
+                  <p className="text-4xl text-yellow font-semibold">
                     {car.price}
                   </p>
-                  <p className="text-lg text-lightGrey font-InterSemiBold">/ Day</p>
+                  <p className="text-lg text-lightGrey font-semibold">/ Day</p>
                 </div>  
               </div>  
               <div className="py-12">
