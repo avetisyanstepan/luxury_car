@@ -63,16 +63,15 @@ export const SideBar: FC = () => {
           {openSide && <p className="pl-4">Garage (staking)</p>}
         </button>
       </div>
-      <div className="flex bg-base_grey_80 w-full rounded-b-xl justify-center py-5">
-        <button>
-          <Image 
-            src={"/images/avatar.png"}
-            width={42}
-            height={42}
-            className="rounded-full"
-          />
-        </button>
-      </div>
+      <button className="flex bg-base_grey_80 w-full rounded-b-xl justify-center py-5">
+        <Image 
+          src={"/images/avatar.png"}
+          objectFit="contain"
+          width={42}
+          height={42}
+          className="rounded-full"
+        />
+      </button>
     </div>
    
   )
